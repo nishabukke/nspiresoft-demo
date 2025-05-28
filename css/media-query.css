@@ -1,0 +1,889 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------- Galaxy Mobile----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 3) {}
+/* Portrait */
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+    .main-link-btn.different {
+        width: 50%;
+    }
+}
+/* Landscape */
+
+@media only screen and (device-width: 568px) {}
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+
+/* Portrait */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {}
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {}
+/* Landscape */
+
+@media screen and (device-width: 667px) {}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 375px) and (device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
+/* Portrait */
+
+@media screen and (device-width: 375px) and (device-width: 812px) and (orientation: portrait) {}
+/* Landscape */
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 736px) {
+    .team-member .para-sub::after {
+        left: 46%;
+    }
+}
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+/* Landscape */
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width:1280px) {}
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+/* ----------- Non-Retina Screens ----------- */
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+/* ----------- Large Desktop----------- */
+
+@media screen and (min-device-width: 1370px) and (max-device-width: 1480px) {
+    .label {
+        margin-left: 3%;
+    }
+}
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 1) {}
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+/* ----------- Apple Desktop----------- */
+
+/* ----------- Non-Retina Screens ----------- */
+
+/* ----------- Retina Screens ----------- */
+
+/*----------------Custom---------------*/
+
+@media screen and (max-width: 1700px) {}
+@media screen and (min-width: 2100px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) and (-webkit-min-device-pixel-ratio: 1) {
+    .story-section .heading-main {
+        padding-top: 180px;
+        text-align: left;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent;
+    }
+    .footer-section::before {
+        border-left: 100vw solid transparent;
+        top: -221;
+    }
+}
+@media screen and (min-device-width: 1600px) and (max-device-width: 1800px) {
+    .label {
+        margin-left: 5%;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent !important;
+    }
+    .footer-section::before {
+        top: -221px;
+    }
+}
+@media screen and (min-device-width: 1367px) and (max-device-width: 1590px) and (-webkit-min-device-pixel-ratio: 1) {
+    .nspiresoft-banner .social, .footer-section .social {
+        right: -55px;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98.8vw solid transparent !important;
+    }
+    .to-top {
+        right: -60px;
+    }
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1366px) {
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98.8vw solid transparent;
+    }
+    .label {
+        margin-left: 0%;
+    }
+    .to-top {
+        right: -45px;
+    }
+    .banner-img {
+        padding: 0 40px;
+    }
+    .nspiresoft-banner .social, .footer-section .social {
+        right: -22px!important;
+    }
+    #banner-carousel .carousel-indicators {
+        left: -30px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98.7vw solid transparent !important;
+    }
+    .nspiresoft-banner .social, .footer-section .social {
+        right: -80px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1)and (orientation: portrait) {
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98vw solid transparent !important;
+    }
+    .nspiresoft-banner .social, .footer-section .social {
+        right: -80px;
+    }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 1) {
+    .label {
+        margin-left: 1%;
+    }
+    .nspiresoft-banner .social, .footer-section .social {
+        right: -45px;
+    }.to-top {
+  
+    right: -55px;
+    
+}
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+    .nspiresoft-container {
+        padding: 0 30px;
+    }
+      .nspiresoft-banner .banner-caption{
+        margin-top: 20px;
+padding: 0 0 160px;
+    }
+    .footer-section::before {
+        top: -218px;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent !important;
+    }
+    .nspiresoft-banner {
+        padding-top: 140px;
+        padding-bottom: 10px;
+        margin-bottom: -100px;
+    }
+    .nspiresoft-banner .banner-caption h2 {
+        margin-top: 0;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .main-header {
+        min-height: 700px;
+    }
+    .counter .employees, .counter .feedback, .counter .incessant {
+        border-right: 5px solid #FF7D00;
+    }
+    /* .counter .feedback {
+        border-right: none
+    }*/
+    .banner-img {
+        position: relative;
+        padding: 10px 30px;
+        z-index: 2;
+        margin-bottom: 0px;
+    }
+    .video-play-button {
+        top: 230px;
+    }
+    .banner-sub-text {
+        font-size: 30px;
+    }
+    .spacer-md h2 {
+        font-size: 35px;
+        width: 100%;
+    }
+    .nspiresoft-banner .social {
+        right: -25px;
+    }
+    .footer-section .social {
+        right: -30px;
+    }
+    .heading-main {
+        font-size: 40px;
+    }
+    .heading-sub {
+        font-size: 25px;
+    }
+    .casestudy-box .heading-sub {
+        font-size: 40px;
+    }
+    .casestudy-box {
+        padding: 0 40px;
+    }
+    .content, .content1, .content2 {
+        font-size: 20px;
+    }
+    .label {
+        margin-left: 0%;
+    }
+    .main-btn .ban-btn, .fill-main-btn .ban-btn {
+        font-size: 16px;
+    }
+    .counter span {
+        font-size: 80px;
+    }
+    .employee-p, .feedback-p, .order-p, .incessant-p {
+        margin-top: 15px;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98.5vw solid transparent;
+    }
+    .to-top {
+        right: 30px;
+        bottom: -135px;
+        float: right;
+    }
+    .nav li {
+        padding: 0px 10px;
+    }
+    .know-box {
+        top: 0;
+        margin-top: 0px;
+        position: relative;
+    }
+    .service-step li {
+        width: 30%;
+    }
+    .main-link-btn.different {
+        width: 39%;
+    }
+    .portfolio-box {
+        text-align: center;
+    }
+    .portfolio-box .heading-sub {
+        text-align: center;
+    }
+    .main-btn .ban-btn, .fill-main-btn .ban-btn {
+        padding: 12px 20px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .main-btn, .fill-main-btn {
+        text-align: center;
+    }
+    .overlay {
+        width: 25%;
+    }
+    #banner-carousel .carousel-indicators {
+        left: -30px;
+    }
+    .employee-p, .feedback-p, .order-p, .incessant-p {
+ 
+    font-size: 18px;
+ 
+}
+}
+@media (min-width:910px) {
+    .banner-img, .story-section img {
+        right: 0
+    }
+}
+@media (max-width:900px) {
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+        color: #FF7D00;
+        background-color: transparent;
+        border-bottom: none;
+        transition: all .3s ease-in-out;
+    }
+    .navbar-inverse .navbar-nav>.active>a.different::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        left: 0;
+        bottom: 0;
+        background-color: #130F49;
+        transition: all ease-in-out .2s;
+    }
+    .different::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    bottom: 0;
+    background-color: #130F49;
+    transition: all ease-in-out .2s;
+}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+        background: #E9F9FF;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-form {
+        padding: 10px 15px;
+        margin-top: 8px;
+        margin-right: -15px;
+        margin-bottom: 8px;
+        margin-left: -15px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+        width: auto;
+        float: none !important;
+    }
+    .navbar-nspiresoft .navbar-brand {
+        color: #130F49
+    }
+    .navbar-nspiresoft .navbar-brand:focus, .navbar-nspiresoft .navbar-brand:hover {
+        color: #FF7D00;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-text {
+        color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav>li>a {
+        color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav>li>a:focus, .navbar-nspiresoft .navbar-nav>li>a:hover {
+        color: #FF7D00;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-nav>.active>a, .navbar-nspiresoft .navbar-nav>.active>a:focus, .navbar-nspiresoft .navbar-nav>.active>a:hover {
+        color: #FF7D00;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-nav>.disabled>a, .navbar-nspiresoft .navbar-nav>.disabled>a:focus, .navbar-nspiresoft .navbar-nav>.disabled>a:hover {
+        color: #444;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-toggle {
+        border-color: #130F49
+    }
+    .navbar-nspiresoft .navbar-toggle:focus, .navbar-nspiresoft .navbar-toggle:hover {
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-toggle .icon-bar {
+        background-color: #130F49
+    }
+    .navbar-nspiresoft .navbar-collapse, .navbar-nspiresoft .navbar-form {
+        border-color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav>.open>a, .navbar-nspiresoft .navbar-nav>.open>a:focus, .navbar-nspiresoft .navbar-nav>.open>a:hover {
+        color: #130F49;
+        background-color: transparent
+    }
+    .navbar-nspiresoft.navbar-nav .open .dropdown-menu>.dropdown-header {
+        border-color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav .open .dropdown-menu .divider {
+        background-color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav .open .dropdown-menu>li>a {
+        color: #130F49
+    }
+    .navbar-nspiresoft .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nspiresoft .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #130F49;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.active>a, .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.active>a:hover {
+        color: #130F49;
+        background-color: transparent
+    }
+    .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.disabled>a:focus, .navbar-nspiresoft .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+        color: #444;
+        background-color: transparent
+    }
+    .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+    /*-----------------------------------Banner----------------------------------------------*/
+    .banner-img {
+        position: unset;
+        margin-top: 30px;
+    }
+    .nspiresoft-banner .social {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: 50px auto 0;
+        right: -20px;
+        left: auto;
+        width: auto;
+        z-index: 1;
+    }
+    /*---------------------------------Heading---------------------------------------------*/
+    .heading-main {
+        font-size: 35px;
+    }
+    .heading-sub {
+        line-height: 1.2;
+    }
+    .para {
+        font-size: 20px;
+    }
+    .top-left {
+        position: absolute;
+        left: -25px;
+        top: -70px;
+        transform: none;
+    }
+    .content1, .content, .content2 {
+        padding: 10px 15px;
+        transform: scaleX(1);
+        padding-right: 0px;
+    }
+    .label::after {
+        left: -60px;
+    }
+    .label1 .content {
+        padding-right: 0px;
+    }
+    .main-btn, .fill-main-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .img-circle {
+        border-radius: 50%;
+        width: 40px;
+    }
+    .overlay {
+        width: 17%;
+    }
+    .testimonial-list li {
+        margin: 20px 0;
+    }
+    .testimonial-list img {
+        width: 20%;
+    }
+    .testimonial-list p {
+        width: 77%;
+        text-align: left;
+        font-size: 17px;
+    }
+    #testimonials .testimonial-box {
+        border-radius: 20px;
+    }
+    .counter .employees, .counter .incessant {
+        border-right: 5px solid #FF7D00;
+    }
+    .counter .feedback {
+        border: none;
+    }
+    .portfolio-box, .portfolio-box .heading-sub {
+        text-align: center
+    }
+    /*----------------------------------------------Footer-section-----------------------------------------------*/
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 98.1vw solid transparent;
+    }
+    .footer-section .social {
+        right: -50px;
+    }
+    /*---------------------------------------------about--------------------------------------------------------*/
+    /*-----------------------------------------------Blog-------------------------------------------*/
+    /*------------------------------------------------Contact-------------------------------------------------------*/
+    .service-step li {
+        width: 32%;
+    }
+    .footer-box {
+        margin-top: 70px;
+    }
+    .nspiresoft-banner .social ul li .down-arrow {
+        display: none
+    }
+    .to-top {
+        padding: 7px 1px;
+        right: 10px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 10;
+        width: 40px;
+        height: 40px;
+        float: right;
+        text-align: center;
+        background: #f7f7f7;
+        fill: #212127;
+    }
+    .footer-section .social {
+        position: unset;
+        top: 0;
+        bottom: 0;
+        margin: 20px auto 0;
+        right: -100px;
+        left: auto;
+        width: auto;
+        text-align: center;
+        z-index: 1;
+    }
+    .footer-section .social ul li {
+        display: inline-block;
+    }
+    .know-box {
+        top: 0;
+        margin-top: 100px;
+        position: relative;
+    }
+    .label1 {
+        width: 280px!important;
+    }
+    #game-carousel.casestudy-carousel .carousel-indicators {
+    bottom: -40px;
+}
+#game-carousel .carousel-indicators {
+    left: 50%;
+}
+.counter{
+    text-align: center;
+}
+}
+@media screen and (min-width: 260px)and (max-width: 415px) {
+    .video-play-button {
+        top: 195px!important;
+        left: 48%!important;
+    }
+    .nspiresoft-banner .banner-caption h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .team-member .para-sub::after {
+        left: 43%;
+    }
+    .main-link-btn.different {
+        width: 34%;
+    }
+    .nspiresoft-container {
+        padding: 0px 1px!important;
+    }
+     .banner-caption{
+        padding-top: 20px;
+     }
+    .know-box {
+   
+    margin-top: 30px;
+}
+.sub-about-section .service-box{
+    padding: 20px 0;
+}
+.sub-about-section{
+    padding-top: 10px;
+}
+.heading{
+    margin-bottom: 30px;
+}
+}
+@media screen and (min-width: 769px)and (max-width: 910px) {
+    .to-top {
+        float: right;
+        right: 15px;
+        bottom: 5px;
+    }
+    .footer-section::before {
+        top: -221px;
+    }
+    .video-play-button {
+        top: 350px;
+        left: 45%;
+    }
+    .employee-p, .feedback-p, .order-p, .incessant-p {
+        text-align: center;
+    }
+    .counter .employees, .counter .feedback, .counter .incessant, .counter .order, .counter span {
+        text-align: center;
+    }
+    .col-sm-6, .col-md-6 {
+        text-align: center;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent;
+    }
+    .nspiresoft-banner .banner-caption h2 {
+        font-size: 60px;
+    }
+    .heading-sub {
+        line-height: 1.5
+    }
+    .nspiresoft-banner {
+        vertical-align: middle;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .team-member .para-sub::after {
+        left: 43%;
+    }
+}
+@media only screen and (device-width: 1024px) {
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent;
+    }
+}
+@media screen and (min-width: 415px)and (max-width: 768px) {
+    .video-play-button {
+        top: 350px!important;
+        left: 45%!important;
+    }
+
+}
+@media (max-width:768px) {
+    body {
+        padding: 90px 0 0;
+    }
+    .footer-section .social {
+        right: 50px;
+    }
+    .nspiresoft-banner .social ul li {
+        display: inline-block;
+    }
+    .nspiresoft-banner .social {
+        position: unset;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .nspiresoft-banner {
+        padding-top: 30px;
+    }
+    .nspiresoft-container {
+        padding: 0px 30px;
+    }
+    .banner-caption-text .carousel {
+        min-height: 380px;
+    }
+    .form-area {
+        width: 80%;
+    }
+    #banner-carousel .carousel-indicators {
+        top: auto;
+        margin: auto;
+        height: 20px;
+        bottom: 26px;
+        right: auto;
+        /* -webkit-transform: rotate(90deg); */
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        /* transform: rotate(0deg); */
+        display: none;
+    }
+    .footer-section::before, .blog-section::before, .testimonial-section::before, .team-section::before, .portfolio-section::before, .casestudy-section::before, .service-section::before, .life-section::before, .journey-section::before, .about-section::before {
+        border-left: 100vw solid transparent;
+    }
+    .counter .feedback {
+        border-right: none;
+    }
+    .counter .employees, .counter .feedback, .counter .incessant {
+        border-bottom: 5px solid #FF7D00;
+        border-right: none;
+    }
+    .portfolio-box, .portfolio-box .heading-sub {
+        text-align: center
+    }
+    .counter .employees, .counter .feedback, .counter .incessant, .counter .order {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .employee-p, .feedback-p, .order-p, .incessant-p {
+        text-align: center;
+    }
+    .footer-section .social {
+        right: -5px;
+    }
+    .footer-section .footer-menu1 li, .footer-section .footer-menu li {
+        padding: 10px 5px;
+    }
+    .footer-menu-row {
+        text-align: center;
+    }
+    .to-top {
+        padding: 7px 1px;
+        right: 0px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 10;
+        top: 5;
+        width: 40px;
+        height: 40px;
+        float: none;
+        text-align: center;
+        background: #f7f7f7;
+        fill: #212127;
+    }
+    .casestudy-box {
+        padding: 10px;
+    }
+}
+@media screen and (min-device-width: 550px) and (max-device-width: 767px) {
+    .overlay {
+        width: 11%;
+    } .banner-caption{
+        padding-top: 20px;
+     }
+    .know-box {
+   
+    margin-top: 30px;
+}
+}
+@media screen and (min-device-width: 260px) and (max-device-width: 736px) {
+    .nspiresoft-container {
+        padding: 0px 5px;
+    }
+    .nspiresoft-banner {
+        padding-top: 5px;
+    }
+    .video-play-button {
+        top: 155px;
+    }
+    .footer-section .social {
+        right: 10px;
+    }
+    .nspiresoft-banner .banner-caption h2 {
+        margin-top: 0;
+        font-size: 40px;
+        line-height: 48px;
+        ;
+    }
+    .casestudy-section .heading-main-after::after {
+        top: 120;
+    }
+    .counter .employees, .counter .feedback, .counter .incessant {
+        border-bottom: 5px solid #FF7D00;
+        border-right: none;
+    }
+    .team-member .para-sub::after {
+        left: 46%;
+    }
+    .banner-caption{
+        padding: 20px 10px 0;
+    }.main-link-btn.different {
+        width: 45%;
+    } .banner-caption{
+        padding-top: 20px;
+     }
+    .know-box {
+   
+    margin-top: 30px;
+}
+}
+@media only screen and (max-device-width: 600px) {
+    .service-step li {
+        width: 100%;
+    }
+}
+@media only screen and (device-width: 768px) {
+    .counter .employees, .counter .incessant {
+        border-right: 5px solid #FF7D00;
+        border-bottom: none;
+    }
+    .counter .feedback {
+        border: none;
+    }
+}
+@media only screen and (max-device-width: 360px) {
+    .video-play-button {
+        top: 150px!important;
+        left: 48%!important;
+    }
+    .main-link-btn.different {
+        width: 45%;
+    }
+    .overlay {
+        width: 20%;
+    }
+}

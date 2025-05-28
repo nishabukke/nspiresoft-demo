@@ -1,0 +1,114 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<link href="img/favicon.png" rel="icon"/>
+<title> Nspiresoft </title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<!-- watch core CSS -->
+<link href="css/style-main.css" rel="stylesheet"/>
+<link href="css/media-query.css" rel="stylesheet"/>
+<link href="css/animsition.min.css" rel="stylesheet"/>
+<link href="css/aos.css" rel="stylesheet"/>
+</head>
+<body>
+<!-------------------------------------Navbar-Start------------------------------------------------>
+<section class="main-header1">
+<nav class="navbar navbar-nspiresoft navbar-inverse navbar-fixed-top">
+    <div class="nspiresoft-container">
+        <div class="navbar-header">
+          
+            <a class="navbar-brand" href="index.html">
+            <img alt="" class="img-responsive" src="img/logo.png"/>
+            </a>
+        </div>
+        
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+  </section>
+<!-------------------------------------Navbar-End------------------------------------------------>
+
+<!-------------------------------------Services-Start------------------------------------------------>
+<section class="not-found-section" >
+    <div class="container">
+        <div class="not-found">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <img class="img-responsive" src="img/page-not-found.png" />
+                    <h2 class="heading-main ">Page Not Found</h2>
+                    <p class="para ">The page you are looking for doesn't exist
+                        or has been moved.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class=" main-btn ">
+                        <a class="ban-btn " href="">Back Homepage </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------contact-End------------------------------------------------>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery3.2.1.js">
+</script>
+<script src="js/bootstrap.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EasePack.js"></script>
+<script src="js/custom.js">
+</script><script src="js/aos.js"></script>
+<script>
+			AOS.init();
+  
+  
+popup = {
+  init: function(){
+    $('figure').click(function(){
+      popup.open($(this));
+    });
+    
+    $(document).on('click', '.popup img', function(){
+      return false;
+    }).on('click', '.popup', function(){
+      popup.close();
+    })
+  },
+  open: function($figure) {
+    $('.gallery').addClass('pop');
+    $popup = $('<div class="popup" />').appendTo($('body'));
+    $fig = $figure.clone().appendTo($('.popup'));
+    $bg = $('<div class="bg" />').appendTo($('.popup'));
+    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+    $shadow = $('<div class="shadow" />').appendTo($fig);
+    src = $('img', $fig).attr('src');
+    $shadow.css({backgroundImage: 'url(' + src + ')'});
+    $bg.css({backgroundImage: 'url(' + src + ')'});
+    setTimeout(function(){
+      $('.popup').addClass('pop');
+    }, 10);
+  },
+  close: function(){
+    $('.gallery, .popup').removeClass('pop');
+    setTimeout(function(){
+      $('.popup').remove()
+    }, 100);
+  }
+}
+
+popup.init()
+
+		</script>
+</body>
+</html>
+</html>
