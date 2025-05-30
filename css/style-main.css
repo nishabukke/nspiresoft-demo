@@ -565,7 +565,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
     display: block;
     width: 80px;
     height: 80px;
-    background: #fff;
+    background: #3b07769c;
     border-radius: 50%;
     -webkit-animation: pulse-border 1500ms ease-out infinite;
     animation: pulse-border 1500ms ease-out infinite;
@@ -581,7 +581,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
     display: block;
     width: 80px;
     height: 80px;
-    background: #ffffff;
+    background: #ffc780;
     border-radius: 50%;
     -webkit-transition: all 200ms;
     transition: all 200ms;
@@ -1758,11 +1758,11 @@ transition:all .3s ease-in-out ;
 }
 .popup {
     position: fixed;
-    z-index: 2;
+    z-index: 2222;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #181818;
     opacity: 0;
     -webkit-transition: opacity .5s ease-in-out .2s;
@@ -1791,6 +1791,7 @@ transition:all .3s ease-in-out ;
 .popup figure img {
     position: relative;
     z-index: 2;
+    height: 500px;
 }
 .popup figure figcaption {
     position: absolute;
@@ -1832,16 +1833,16 @@ transition:all .3s ease-in-out ;
 .popup .close {
 
   position: absolute;
- 
-    top: 10px;
-    right: 10px;  
-   z-index: 3;
+     position: absolute;
+    top: 1%;
+    right: 2%;
+    z-index: 3;
     width: 25px;
     height: 25px;
     cursor: pointer;
     background: url(#close);
     border-radius: 25px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 1);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .popup .close svg {
@@ -1982,6 +1983,7 @@ transition:all .3s ease-in-out ;
   }
   
 }
+
 .contact-box #testimonials .testimonial-li{
   margin-left: 0!important;
 }
@@ -2380,10 +2382,19 @@ opacity: .5;
 transition:all .5s ease;
 }
 .career-box:hover h4{
- 
   color: #fff;
   transition:all .5s ease;
 }
+
+.contact-hr a{
+  font-weight: 700;
+  color: #130F49;
+}
+
+.contact-hr a:hover{
+  text-decoration: underline;
+}
+
 /*--------------------------FAQ---------------------------------*/
 .faq-box{
   background: #E9F9FF;
