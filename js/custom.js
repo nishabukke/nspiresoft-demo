@@ -2,24 +2,24 @@
 
 
 /*-----------------------------------------Video player JS----------------------------------------------------*/
-$('#play-video').on('click', function(e){
-  e.preventDefault();
-  $('#video-overlay').addClass('open');
-  $("#video-overlay").append('<video  autoplay controls width="80%" height="80%"  allowfullscreen> <source src="img/home-page-video.mp4" type="video/mp4"> </video>');
-});
+// $('#play-video').on('click', function(e){
+//   e.preventDefault();
+//   $('#video-overlay').addClass('open');
+//   $("#video-overlay").append('<video  autoplay controls width="80%" height="80%"  allowfullscreen> <source src="img/home-page-video.mp4" type="video/mp4"> </video>');
+// });
 
-$('.video-overlay, .video-overlay-close').on('click', function(e){
-  e.preventDefault();
-  close_video();
-});
+// $('.video-overlay, .video-overlay-close').on('click', function(e){
+//   e.preventDefault();
+//   close_video();
+// });
 
-$(document).keyup(function(e){
-  if(e.keyCode === 27) { close_video().click; }
-});
+// $(document).keyup(function(e){
+//   if(e.keyCode === 27) { close_video().click; }
+// });
 
-function close_video() {
-  $('.video-overlay.open').removeClass('open').find('video').remove();
-}
+// function close_video() {
+//   $('.video-overlay.open').removeClass('open').find('video').remove();
+// }
 
 
 

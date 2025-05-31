@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;523;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-text.min.css");
+
 body {
     font-family: 'Plus Jakarta Text', sans-serif;
     font-size: 18px;
@@ -337,11 +338,12 @@ section {
     height: 50%;
 }
 /*-----------------------------------Banner----------------------------------------------*/
-.banner-img {
+.banner-video {
     position: relative;
     padding: 10px;
     z-index: 1;
-    margin-bottom: 50px;
+    width: 95%;
+    border-radius: 30px;
 }
 .nspiresoft-banner {
     vertical-align: middle;
@@ -362,8 +364,8 @@ section {
 }
 .nspiresoft-banner p {
     margin: 10px 0;
-    font-size: 25px;
-    line-height: 1.3;
+    font-size: 18px;
+    line-height: 1.5;
     text-align: left;
     color: #130f49;
     letter-spacing: -.5px;
@@ -384,7 +386,7 @@ section {
     margin-bottom: 0px;
     border-radius: 50px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
 }
 .banner-btn .ban-btn:hover {
     color: #fff !important;
@@ -731,8 +733,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
     margin: 0 0 30px;
     letter-spacing: -.5px;
     color: #130f49;
-    text-transform: capitalize;
-    font-family: 'Mulish', sans-serif;
+    /* text-transform: capitalize; */
+    font-family: 'Plus Jakarta Text', sans-serif;
 }
 .para1 {
     font-size: 18px;
@@ -741,8 +743,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
     letter-spacing: -.5px;
     color: #130f49;
     padding: 0 20px;
-    text-transform: capitalize;
-    font-family: 'Mulish', sans-serif;
+    /* text-transform: capitalize; */
+    font-family: 'Plus Jakarta Text', sans-serif;
 }
 /*---------------------------------------Service Section--------------------------------------------*/
 .service-section {
@@ -882,7 +884,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
     margin: 0 0 20px;
     line-height: 1;
     text-align: left;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family: 'Dosis', sans-serif;
 }
 .para-sub {
@@ -890,10 +892,9 @@ now override the 3.3 new styles for modern browsers & apply opacity
     font-weight: 500;
     margin: 0 0 30px;
     color: #130f49;
-    letter-spacing: -.5px;
     line-height: 1.5;
-    text-transform: capitalize;
-     font-family: 'Mulish', sans-serif;
+    /* text-transform: capitalize; */
+     font-family: 'Plus Jakarta Text', sans-serif;
 }
 .main-link-btn.different {
     border: none;
@@ -942,7 +943,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
     top: -119px;
 }
 .casestudy-box{
-  padding: 40px;
+      padding: 0px 0px 0px 20px;
   
 }
 .casestudy-box .heading-sub{
