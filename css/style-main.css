@@ -2006,6 +2006,7 @@ transition:all .3s ease-in-out ;
 /*-----------------------------------blog Section----------------------------------------------*/
 .blog-box label, .blog-box1 label{
   position: absolute;
+  display: none;
   top:30px;
   left:25px;
   border-radius: 50px;
@@ -2016,11 +2017,11 @@ transition:all .3s ease-in-out ;
   padding: 5px 20px;
 }
 
-.blog-box label img{
+/* .blog-box label img{
  margin-left: -18px;
    margin-top:-3px;
  
-}
+} */
 .blog-box1  .para{
   font-size: 18px;
 }
@@ -2071,7 +2072,7 @@ transition:all .3s ease-in-out ;
 .blog-box, .blog-box1 {
   padding: 20px 20px 60px 0;  
 }
-.blog-box:hover  .blog-img{
+/* .blog-box:hover  .blog-img{
   background: #000000;
 
 transition:all .4s ease-in-out;}
@@ -2080,7 +2081,7 @@ transition:all .4s ease-in-out;}
 opacity: .5;
 
   transition:all .4s ease-in-out;
-}
+} */
 
 
  .blog-img {
