@@ -2412,6 +2412,10 @@ transition:all .5s ease;
 }
 .know-box{
   background: #D9F4FF;
+  background-image: url('../img/dyk-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   padding:40px;
  text-align: left;
   margin:15px 0;
@@ -2424,6 +2428,12 @@ transition:all .5s ease;
 .know-box .para{
     font-size: 20px;
     font-weight: 500;
+}
+
+.know-box img{
+  position: absolute;
+  right: 0;
+  top: 2%;
 }
 /*-------------------------------form-box---------------------------------*/
 .form-box{
